@@ -8,6 +8,8 @@ public class CheckPositiveElements {
         // if every element in the stream satisfies the given condition
         // return true or false
         boolean allPositive = List.of(1,2,3,4,5).stream().allMatch(n -> n>0);
+        // .anyMatch() = return true if any of the stream element satisfies the given condition
+
         System.out.println(allPositive);
     }
 }
